@@ -79,7 +79,7 @@ $callbackmessage = $update->callback_query->message->text;
 $callbackid = $update->callback_query->id;
 
 $text = $update->message->text;
-$owner = '<code>@ChitNgexx</code>';
+$owner = '<code>@ERR0R9</code>';
 
 
 
@@ -88,7 +88,7 @@ $owner = '<code>@ChitNgexx</code>';
 $keyboard = json_encode([
     'inline_keyboard' => [
         [
-            ['text' => "↯ 𝙐𝙥𝙜𝙧𝙖𝙙𝙚 𝙔𝙤𝙪'𝙧𝙚 𝙂𝙤𝙟𝙤 ↯", 'url' => "https://t.me/C0LL_BR0KEN"],
+            ['text' => "↯ 𝙐𝙥𝙜𝙧𝙖𝙙𝙚 𝙔𝙤𝙪'𝙧𝙚 𝙂𝙤𝙟𝙤 ↯", 'url' => "https://t.me/ERR0R9"],
         ],
     ]
 ]);
@@ -107,8 +107,8 @@ if ($cdata2 == "back") {
 ┣ 𝘍𝘳𝘦𝘦 𝘎𝘢𝘵𝘦'𝘴 -> 0
 ┗━━━━━━━━━━━━━━━━━━━┛
 
-┣Dev - @C0LL_BR0KEN
-┣Owner - @Proliantx";
+┣Dev - ⏤͟͞𝙀𝙍𝙍𝙊𝙍
+┣Owner - @ERR0R9";
 
     $gatesKeyboard = json_encode([
         'inline_keyboard' => [
@@ -141,8 +141,8 @@ if ($cdata2 == "gates") {
 ┣ 𝘍𝘳𝘦𝘦 𝘎𝘢𝘵𝘦'𝘴 -> 0
 ┗━━━━━━━━━━━━━━━━━━━┛
 
-┣Dev - @C0LL_BR0KEN
-┣Owner - @Proliantx";
+┣Dev - ⏤͟͞𝙀𝙍𝙍𝙊𝙍
+┣Owner - @ERR0R9";
 
   
     $gatesKeyboard = json_encode([
@@ -311,7 +311,7 @@ if ($cdata2 == "price") {
 
     $priceKeyboard = json_encode([
         'inline_keyboard' => [
-            [['text' => '𝑯𝑶𝑴𝑬', 'callback_data' => 'back2'], ['text' => '𝑩𝑼𝒀', 'url' => 'https://t.me/TeamChatGSIX']]
+            [['text' => '𝑯𝑶𝑴𝑬', 'callback_data' => 'back2'], ['text' => '𝑩𝑼𝒀', 'url' => 'https://t.me/ERR0R9']]
         ]
     ]);
 
@@ -353,7 +353,7 @@ file_get_contents("https://api.telegram.org/bot$botToken/deleteMessage?chat_id=$
 //========finalize end=========//
 $channel = json_encode([
     'inline_keyboard' => [
-        [['text' => "𝗚𝗿𝗼𝘂𝗽 ", 'url' => "https://t.me/TeamChatGSIX"], ['text' => "𝗖𝗵𝗮𝗻𝗻𝗲𝗹", 'url' => "https://t.me/CHITNGE54"]],
+        [['text' => "𝗚𝗿𝗼𝘂𝗽 ", 'url' => ""], ['text' => "𝗖𝗵𝗮𝗻𝗻𝗲𝗹", 'url' => ""]],
         [['text' => "𝗕𝗔𝗖𝗞 ", 'callback_data' => 'back2']]
     ]
 ]);
