@@ -77,7 +77,7 @@
         $message = substr($message, 4);
         $messageidtoedit1 = bot('sendmessage',[
             'chat_id'=>$chat_id,
-            'text'=>"<b>LOADING PLEASE WAIT ☺️</b>",
+            'text'=>"<b>𝙇𝙊𝘼𝘿𝙄𝙉𝙂 𝙋𝙇𝙀𝘼𝙎𝙀 𝙒𝘼𝙄𝙏.....</b>",
             'parse_mode'=>'html',
             'reply_to_message_id'=> $message_id
         ]);
@@ -92,7 +92,7 @@
           bot('editMessageText',[
                   'chat_id'=>$chat_id,
                   'message_id'=>$messageidtoedit,
-                  'text'=>"Invalid details \nFormat -> cc|mm|yy|cvv",
+                  'text'=>"𝙄𝙉𝙑𝘼𝙇𝙄𝘿 𝘿𝙀𝙏𝘼𝙄𝙇𝙎 \n𝙁𝙊𝙍𝙈𝘼𝙏 -> 𝘾𝘾|𝙈𝙈|𝙔𝙔|𝘾𝙑𝙑",
                   'parse_mode'=>'html',
                   'disable_web_page_preview'=>'true'
                   ]);
