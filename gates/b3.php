@@ -77,7 +77,7 @@
         $message = substr($message, 4);
         $messageidtoedit1 = bot('sendmessage',[
             'chat_id'=>$chat_id,
-            'text'=>"<b>𝙇𝙊𝘼𝘿𝙄𝙉𝙂 𝙋𝙇𝙀𝘼𝙎𝙀 𝙒𝘼𝙄𝙏.....</b>",
+            'text'=>"<b>𝘾𝙃𝙀𝘾𝙆𝙄𝙉𝙂 𝙋𝙇𝙀𝘼𝙎𝙀 𝙒𝘼𝙄𝙏.....</b>",
             'parse_mode'=>'html',
             'reply_to_message_id'=> $message_id
         ]);
