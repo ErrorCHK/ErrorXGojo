@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "6881246250:AAF1QbVEVBuTiQ6JMZLdhOHMigvI9iPu-Cw";
+$botToken = "6893019525:AAFKJXdKOuoDafv9wwCI0Qk5oNtYo9GIZLM";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 //echo $update;
@@ -88,12 +88,12 @@ $owner = '<code>@ERR0R9</code>';
 $keyboard = json_encode([
     'inline_keyboard' => [
         [
-            ['text' => "↯ 𝙐𝙥𝙜𝙧𝙖𝙙𝙚 𝙔𝙤𝙪'𝙧𝙚 𝙂𝙤𝙟𝙤 ↯", 'url' => "https://t.me/ERR0R9"],
+            ['text' => "↯ 𝙐𝙥𝙜𝙧𝙖𝙙𝙚 𝙔𝙤𝙪'𝙧𝙚 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 ↯", 'url' => "https://t.me/ERR0R9"],
         ],
     ]
 ]);
 
-//=======Inline Keyboard for "BACK" button========//
+//=======Inline Keyboard for "𝗕𝗔𝗖𝗞" button========//
 
 if ($cdata2 == "back") {
     // Go back to the welcome page
