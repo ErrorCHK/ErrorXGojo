@@ -32,7 +32,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
 
         $credt = array();
         while ($amountOfCodes > 0) {
-            $rnds = 'BROKEN-' . random_strings(4) . '-' . random_strings(4) . '-' . random_strings(4);
+            $rnds = 'ERROR-' . random_strings(4) . '-' . random_strings(4) . '-' . random_strings(4);
             $credt[] = $rnds;
             $amountOfCodes = $amountOfCodes - 1;
         }
@@ -43,7 +43,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
             fclose($credtf);
             $formattedCode = "<code>$code</code>";
             $messageToSend = urlencode(
-                "[↯] 𝗕𝗼𝘁 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 : @BRAINTREExCHK_BOT \n".
+                "[↯] 𝗕𝗼𝘁 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 : @ErrorCheckerRobot \n".
                 "[↯] 𝗞𝗮𝘆 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 \n" .
                 "[↯] 𝗨𝘀𝗮𝗴𝗲 /redeem\n" .
                 "[↯] 𝗞𝗮𝘆 : $formattedCode\n" .
