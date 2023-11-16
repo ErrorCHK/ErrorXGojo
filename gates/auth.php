@@ -81,7 +81,7 @@ $start_time = microtime(true);
   
 //=====ANTISPAM AND WRONG FORMAT====// 
   if (strlen($message) <= 4) {
-            sendMessage($chatId, '<b>• Wrong Format! ⚠️</b>%0A• 𝘚𝘦𝘯𝘥 <code>/chk cc|mm|yy|cvv</code>%0A• 𝘎𝘢𝘵𝘦𝘸𝘢𝘺 <code>Stripe Auth Intent</code>', $message_id);
+            sendMessage($chatId, '<b>• 𝙒𝙍𝙊𝙉𝙂 𝙁𝙊𝙍𝙈𝘼𝙏 ⚠️</b>%0A• 𝙎𝙀𝙉𝘿 <code>𝙲𝙲|𝙼𝙼|𝚈𝚈|𝙲𝚅𝚅</code>%0A• 𝙂𝙖𝙩𝙚𝙬𝙖𝙮 <code>𝚂𝚝𝚛𝚒𝚙𝚎 𝙰𝚞𝚝𝚑 𝙸𝚗𝚝𝚎𝚗𝚝</code>', $message_id);
             exit();
   }
 //===ANTISPAM AND WRONG FORMAT END===//
@@ -112,9 +112,9 @@ $last4 = substr($cc, -4);
 
 
 $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>
-   🔴↯[CHECKING CARD]↯
+   🔴↯[𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗖𝗔𝗥𝗗]↯
 CC: <code>$lista</code>
-Gateway: STRIPE AUTH
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮: 𝚂𝚝𝚛𝚒𝚙𝚎 𝙰𝚞𝚝𝚑
 Status: <code>□□□□□ 0%[🟥]</code>
 Req: <code>@$username</code>
 </b>");
@@ -191,9 +191,9 @@ $pass = passwordGen();
   
 sleep(1);
     edit_sent_message($chatId, $sent_message_id, "<b>
-   🔴↯[CHECKING CARD]↯
+   🔴↯[𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗖𝗔𝗥𝗗]↯
 CC: <code>$lista</code>
-Gateway: STRIPE AUTH
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮: 𝚂𝚝𝚛𝚒𝚙𝚎 𝙰𝚞𝚝𝚑
 Status: <code>■□□□□ 20%[⬛]</code>
 Req: <code>@$username</code>
 </b>");
@@ -278,9 +278,9 @@ if($state=="Alabama"){ $state="AL";
 //==============[Randomizing Details-END]======================//
 sleep(1);
     edit_sent_message($chatId, $sent_message_id, "<b>
-   🔴↯[CHECKING CARD]↯
+   🔴↯[𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗖𝗔𝗥𝗗]↯
 CC: <code>$lista</code>
-Gateway: STRIPE AUTH
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮: 𝚂𝚝𝚛𝚒𝚙𝚎 𝙰𝚞𝚝𝚑
 Status: <code>■■■□□ 50%[🟧]</code>
 Req: <code>@$username</code>
 </b>");
@@ -315,9 +315,9 @@ $type =strtoupper(GetStr($fim, '"type":"', '"'));
 
 sleep(1);
     edit_sent_message($chatId, $sent_message_id, "<b>
-  🔴↯[CHECKING CARD]↯
+  🔴↯[𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗖𝗔𝗥𝗗]↯
 CC: <code>$lista</code>
-Gateway: STRIPE AUTH
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮: 𝚂𝚝𝚛𝚒𝚙𝚎 𝙰𝚞𝚝𝚑
 Status: <code>■■■■□ 80%[🟨]</code>
 Req: <code>@$username</code>
 </b>");  
@@ -350,9 +350,9 @@ $msg = trim(strip_tags(getStr($result2,'<div id="pmpro_message_bottom" class="pm
 
 sleep(1);
     edit_sent_message($chatId, $sent_message_id, "<b>
-   🔴↯[CHECKING CARD]↯
+   🔴↯[𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗖𝗔𝗥𝗗]↯
 CC: <code>$lista</code>
-Gateway: STRIPE AUTH
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮: 𝚂𝚝𝚛𝚒𝚙𝚎 𝙰𝚞𝚝𝚑
 Status: <code>■■■■■ 100%[🟩]</code>
 Req: <code>@$username</code>
 </b>");
@@ -380,7 +380,7 @@ if ((strpos($result2, 'Thank you! For security reasons your order is currently b
 •├Time taken: <code>$time seconds</code> 
 •├Req: @$username/<code>[$rank]</code>
 ━━━━━━━━━━━━━
-•├Dev: <code>@BADDOORS</code>
+•├Dev: <code>⏤͟͞𝙀𝙍𝙍𝙊𝙍</code>
 
 </b>";
 
@@ -406,7 +406,7 @@ $resp = "<b>
 •├Time taken: <code>$time seconds</code> 
 •├Req: @$username/<code>[$rank]</code>
 ━━━━━━━━━━━━━
-•├Dev: <code>@BADDOORS</code>
+•├Dev: <code>⏤͟͞𝙀𝙍𝙍𝙊𝙍</code>
 
 </b>";
 
@@ -431,7 +431,7 @@ $resp = "<b>
 •├Time taken: <code>$time seconds</code> 
 •├Req: @$username/<code>[$rank]</code>
 ━━━━━━━━━━━━━
-•├Dev: <code>@BADDOORS</code>
+•├Dev: <code>⏤͟͞𝙀𝙍𝙍𝙊𝙍</code>
 
 </b>";
 
@@ -456,7 +456,7 @@ $resp = "<b>
 •├Time taken: <code>$time seconds</code> 
 •├Req: @$username/<code>[$rank]</code>
 ━━━━━━━━━━━━━
-•├Dev: <code>@BADDOORS</code>
+•├Dev: <code>⏤͟͞𝙀𝙍𝙍𝙊𝙍</code>
 
 </b>";
 
