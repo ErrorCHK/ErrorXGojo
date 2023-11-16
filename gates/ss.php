@@ -77,7 +77,7 @@ if (preg_match('/^(\/ss|\.ss|!ss)/', $text)) {
     $message = substr($message, 4);
     $messageidtoedit1 = bot('sendmessage', [
         'chat_id' => $chat_id,
-        'text' => "<b>Checking You're CC🪬\n Req By - $username</b>",
+        'text' => "<b>𝘾𝙃𝙀𝘾𝙆𝙄𝙉𝙂 𝙔𝙊𝙐'𝙍𝙀 𝘾𝘾.....\n 𝙍𝙀𝙌 𝘽𝙔 :- - $username</b>",
         'parse_mode' => 'html',
         'reply_to_message_id' => $message_id
     ]);
@@ -92,7 +92,7 @@ if (preg_match('/^(\/ss|\.ss|!ss)/', $text)) {
         bot('editMessageText', [
             'chat_id' => $chat_id,
             'message_id' => $messageidtoedit,
-            'text' => "Invalid details \nFormat -> cc|mm|yy|cvv",
+            'text' => "𝙄𝙉𝙑𝘼𝙇𝙄𝘿 𝘿𝙀𝙏𝘼𝙄𝙇𝙎 \n𝙁𝙊𝙍𝙈𝘼𝙏 -> 𝘾𝘾|𝙈𝙈|𝙔𝙔|𝘾𝙑𝙑",
             'parse_mode' => 'html',
             'disable_web_page_preview' => 'true'
         ]);
@@ -128,7 +128,7 @@ if (preg_match('/^(\/ss|\.ss|!ss)/', $text)) {
     if (strpos($fim, '"type":"credit"') !== false) {
         $bin = 'Fail';
     } else {
-        $bin = 'Fail Try again';
+        $bin = 'ꜰᴀɪʟ ᴛʀʏ ᴀɢᴀɪɴ';
     };
     //IF BIN ARE NOT AVAILABLE ----//
     if (empty($scheme)) {
@@ -359,8 +359,7 @@ if (preg_match('/^(\/ss|\.ss|!ss)/', $text)) {
 [↯] 𝗣𝗿𝗼𝘅𝘆 ⇾ <code>103.147.XXX.XX</code>
 [↯] 𝗨𝘀𝗲𝗿𝘀 ⇾ <code>@$username</code> [<code>$rank</code>]
 ━━━━━━━━━━━━━━━
-[↯] 𝗕𝗼𝘁 𝗕𝘆 ⇾ <code>@C0LL_BROKEN</code>
-[↯] 𝗝𝗼𝗶𝗻 𝗛𝗲𝗿𝗲 ⇾ @BR0KEN_CC
+[↯] 𝗕𝗼𝘁 𝗕𝘆 ⇾ <code>@ERR0R9</code>
 ━━━━━━━━━━━━━━━
 ",
         'parse_mode' => 'html',
